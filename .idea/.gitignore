@@ -1,0 +1,23 @@
+# Cartella di output e compilazione Maven
+target/
+
+# File e configurazioni dell'IDE locale IntelliJ
+.idea/
+*.iml
+out/
+/shelf/
+/workspace.xml
+/dataSources/
+/dataSources.local.xml
+/httpRequests/
+/queries/
+
+# Database SQLite locale generato a runtime
+*.db
+*.db-journal
+test_stabilimento.db
+stabilimento_gruppo31.db
+
+# File di report generati dai test o dalle sessioni utente
+report_*.csv
+report_*.pdf
